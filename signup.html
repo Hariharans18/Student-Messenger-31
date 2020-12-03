@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Custom Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+			<nav class="navbar">
+				<img class="" src="">
+				<ul>
+					<li><a class="active" href="#">Home</a></li>
+					<li><a href="compose_mail.html">Compose Mail</a></li>
+					<li><a href="inbox _mail_content.html">Inbox</a></li>
+					<li><a href="sent_box_mail_content.html">Sent Box</a></li>
+					<li><a href="login.html">Log In</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="reports.html">Report</a></li>
+
+				</ul>
+			</nav>
+			<div class="center">
+			<div class="buttons">
+		</div>
+		</div>
+</body>
+</html>
+
+<html>
+    <head>
+        <title>Signup</title>
+        <script defer src="signup.js"></script>
+    </head>
+    <body style="background-color: black;">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+        <!-- <div style="background: blue; margin:auto; padding:20px; margin-top: 5%;"> -->
+            <h1 style="color: aqua; padding-left: 375px;">Create Your Account</h1>
+
+            <form onsubmit="return formValidation()" name="form" id="form" method="GET" style="background: yellow; width:40%; margin:auto; padding:20px;">
+
+                <div id="error"></div>
+                <br>
+
+                <div class="form-group">
+                    <label for="name">Enter Your Name: </label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <br>
+
+                  <div class="form-group">
+                    <label for="age">Enter Your Age: </label>
+                    <input type="text" class="form-control" id="age">
+                  </div>
+                  <br>
+
+                  <div class="form-group">
+                    <input style ="display: inline;" type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input style ="display: inline;" type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input style ="display: inline;" type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                  </div>
+<br>
+                <div class="form-group">
+                  <label for="email">Email Address :</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <br>
+      
+                <div class="form-group">
+                  <label for="password" >Enter Password:</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <label for="password" >Confirm Password:</label>
+                    <input type="password" class="form-control" id="cnfpassword">
+                  </div>
+                  <br>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+                <br><br>
+              </form>
+              
+        </div>
+    </body>
+</html>

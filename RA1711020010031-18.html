@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Coustomer's Feedback</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="sample-registration-form-validation.js"></script>
+</head>
+<body onload="document.registration.userid.focus();">
+<h1>Customer's Feedback</h1>
+Please use this form both for suggestion improvements to processes and for providing feedback to our customer's services.
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+    <li><label for="username">Name:*</label></li>
+<li><input type="text" name="username" size="10" /><input type="text" name="userid" size="12" /></li>
+<li><label for="userid">Email:*</label></li>
+<li><input type="text" name="userid" size="20"></li>
+please enter your email,so we can follow up with you.
+<br>
+<br>
+<li><label id="gender">which department you have suggestion for?*</label></li>
+<li><input type="radio" name="sales " value="sales" /><span>Sales</span></li>
+<li><input type="radio" name="customer support" value="Customer Support" /><span>Customer Support</span></li>
+<li><input type="radio" name="product support" value="Product Support" /><span>Product Support</span></li>
+<li><input type="radio" name="others" value="Others" /><span>Others</span></li>
+<br>
+<li><label for="desc">Subject:*</label></li>
+<li><textarea name="desc" id="desc"></textarea></li>
+<br>
+<li><label for="desc">Message:*</label></li>
+<li><textarea name="desc" id="desc"></textarea></li>
+<br>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>

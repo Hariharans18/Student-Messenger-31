@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="week9.xsl"?>
+<studentdetail>
+    <studentdetail_help Regno="123">
+        <Applicationno>01</Applicationno>
+        <name>S Hariharan</name>
+        <Address>B-505,SIS</Address>
+        <DOB>18/07/2000</DOB>
+    </studentdetail_help>
+    <studentdetail_help Regno="456">
+        <Applicationno>02</Applicationno>
+        <name>L Suthan</name>
+        <Address>B-507,Safa</Address>
+        <DOB>27/09/2000</DOB>
+    </studentdetail_help>
+    <studentdetail_help Regno="789">
+        <Applicationno>03</Applicationno>
+        <name>Dharun Raj</name>
+        <Address>A-101,SIS</Address>
+        <DOB>28/03/2000</DOB>
+    </studentdetail_help>
+    <studentdetail_help Regno="101">
+        <Applicationno>04</Applicationno>
+        <name>Kamesh</name>
+        <Address>403,Akshaya</Address>
+        <DOB>11/07/1999</DOB>
+    </studentdetail_help>
+    <studentdetail_help Regno="102">
+        <Applicationno>05</Applicationno>
+        <name>S Vignesh</name>
+        <Address>B-101,SIS</Address>
+        <DOB>25/02/2000</DOB>
+    </studentdetail_help>
+</studentdetail>

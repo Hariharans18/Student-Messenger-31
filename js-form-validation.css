@@ -1,0 +1,17 @@
+h1 {
+    margin-left: 70px;
+    }
+    form li {
+    list-style: none;
+    margin-bottom: 5px;
+    }
+    [type="submit"] {
+        clear: left;
+        margin: 20px 0 0 230px;
+        font-size:18px
+        }
+        
+        p {
+        margin-left: 70px;
+        font-weight: bold;
+        }
